@@ -35,6 +35,7 @@ To compile a user program in xv6, the following must be done:
 - [ ] 1. In `user.h` (C function prototype) add the system name under system calls
 	- A function prototype (in C) is needed so other C programs are allowed to execute the assembly code via a regular function call
 - [ ] 2. `usys.S` (x86 assembly implementation)
+
 **User Program or Test File** (Note when making a user program you only need to do steps 3 and 4)
 - [ ] 3. User Program for testing by creating new test sourcefile 
 - [ ] 4. In `Makefile` add the user program name under UPROGS
